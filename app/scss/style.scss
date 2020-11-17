@@ -44,11 +44,8 @@ section.map {
     color: #fff;
   }
 }
-.navbar-nav {
-  display: flex;
-  margin-left: auto;
-  align-items: flex-end;
-  justify-content: flex-end;
+.navbar .navbar-nav {
+  float: right;
 }
 .bg-black {
   color: white;
@@ -105,7 +102,7 @@ button.btn-light:hover {
 nav.navbar {
   padding: 23px 0;
   .nav-item, .nav-item-active {
-    padding: 5px 18px 0 5.5px;
+    padding: 0 18px 0 5.5px;
     .nav-link {
       padding: 8px 0px;
       font-weight: 600;
@@ -211,8 +208,11 @@ nav.navbar {
   font-size: 18px;
   color: $grey-color;
 }
-.large-img {
-
+.large-img img{
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-content: center;
 }
 .price-item div {
   border: 1px solid $grey-border-color;
@@ -330,7 +330,6 @@ img {
     height: 100%;
   }
 }
-
 @media screen and (max-width: 576px) {
   section {
   padding: 0 20px; 
@@ -351,8 +350,7 @@ img {
       bottom: 0;
       top: 0;
       width: 100%;
-   }
-   
+   }   
   }
   .carousel-item-wrapper {
     padding: 200px 10%;
@@ -360,6 +358,19 @@ img {
     font-size: 15px;
     }
   }
+  .navbar-nav {
+    height: 0;
+    overflow-y: hidden;
+   }
+   .navbar-nav-active {
+    height: auto;
+    position: absolute;
+    background-color: green;
+    z-index: 1000;
+   }
+   .navbar .navbar-nav {
+  float: left;
+}
 }
 @media screen and (max-width: 1200px) {
   .home-info .devices {
@@ -497,6 +508,9 @@ img {
 .nav-item-active .underscore {
   width: 100%;
   transition: width .5s;
+}
+.navbar-brand {
+  padding: 15px 0!important;
 }
 body {
   overflow-x: hidden;
