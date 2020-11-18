@@ -133,7 +133,7 @@ nav.navbar {
       font-size: 18px;
       line-height: 1.45;
       letter-spacing: 0.04px;
-      width: 480px;
+      max-width: 480px;
       color: $grey-color;
     }
     .main-button-wrapper {
@@ -352,13 +352,16 @@ img {
       width: 100%;
    }   
   }
-  .carousel-item-wrapper {
+  .carousel .carousel-item-wrapper {
     padding: 200px 10%;
     .carousel-text {
     font-size: 15px;
     }
+    .carousel-author-company {
+      font-size: 12px;
+    }
   }
-  .navbar-nav {
+  /*.navbar-nav {
     height: 0;
     overflow-y: hidden;
    }
@@ -370,7 +373,7 @@ img {
    }
    .navbar .navbar-nav {
   float: left;
-}
+}*/
 }
 @media screen and (max-width: 1200px) {
   .home-info .devices {
@@ -512,7 +515,9 @@ img {
 .navbar-brand {
   padding: 15px 0!important;
 }
-body {
+
+section {
+  width: 100%;
   overflow-x: hidden;
 }
 @import "media";
