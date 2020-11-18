@@ -520,4 +520,9 @@ section {
   width: 100%;
   overflow-x: hidden;
 }
+.contact-us {
+  max-width: 100%;
+  overflow-x: visible;
+  /*display: none;*/
+}
 @import "media";
