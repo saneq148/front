@@ -1,0 +1,237 @@
+@media screen and (max-width: 1170px) {
+	/*.section .section-wrapper .wrapper {
+		max-width: 100%!important;
+	}*/
+	/*.col-6 {
+		padding: 0!important;
+		max-width: 100%;
+	}*/
+	/*.wrapper {
+		width: 920px!important;
+	}*/
+}
+@media screen and (max-width: 1280px) {
+	.wrapper {
+		width: 720px!important;
+		margin: auto!important;
+		padding: auto 20px!important;
+	}
+	/*.section {
+		display: none;
+	}*/
+	.header{
+		display: block;
+	}
+	
+	.header-buttons {
+		button:last-child { 
+			margin-right: 0px!important;
+		}
+	}
+	.large-img {
+		display: flex
+	}
+	.large-article {
+		margin: 0!important;
+		padding-bottom: 0!important;
+ 		div {
+ 			justify-content: center;
+ 		}
+	}
+	.title-text-header, .title-text {
+		width: 100%!important;
+	}
+	.about-text {
+		margin: auto!important;
+		padding: 0 10px!important;
+	}
+	.about-content {
+		width: 100%;
+	}
+	.services {
+		height: auto!important;
+	}
+	.services-item {
+		padding: 30px!important;
+	}
+	.services-item-icon {
+		width: 100px;
+		margin: auto;
+	}
+	.skills-graph img {
+		padding: 20px;
+	}
+	.testimonials .testimonials-content {
+		margin: auto!important;
+	}
+	/*.section {
+		display: none;
+	}
+	.testimonials {
+		display: block;
+	}*/
+	.testimonials .testimonials-content .carousel {
+		width: 90%!important;
+		height: 100%;
+		margin: 20px auto;
+		.test {
+			width: 100%;
+			.caruosel-content {
+				margin: 60px 20px!important;
+				.carousel-img img{
+					
+				}
+				.carousel-text {
+					padding-left: 10px;
+				}
+			}
+		}
+		
+	}
+	.carousel-text {
+		width: 100%!important;
+		margin-right: 20px;
+		.carousel-full-text {
+			font-size: 10px!important;
+			letter-spacing: 0!important;
+		}
+	}
+	.about-img img, .skills-graph img, .large-img img, .icons-item-icon img {
+		margin: auto!important;
+		max-width: 100%;
+	}
+	.about-img img {
+		width: 100%;
+	}
+	.say-hello .footer-form {
+		width: 100%!important;
+		padding: 20px;
+	}
+	.testimonials .title-text-header, .say-hello .title-text-header {
+		margin-right: 0!important;
+	}
+	.services .title-text-header, .skills .title-text-header, .portfolio .title-text-header {
+	    margin-right: 0px!important;
+	}
+	.portfolio-item {
+		padding: 15px 15px;
+		max-width: 90%;
+		img {
+			
+			width: 100%;
+		}
+	}
+	.portfolio-content {
+		margin: 0!important
+	}
+	.about-content {
+		margin: 0!important;
+		padding: 20px;
+	}
+	
+	.icons-content {
+		height: 100%!important;
+		padding: 20px!important;
+	}
+}
+@media screen and (max-width: 780px) {
+	.burger {
+		float: right;
+		margin: 20px;
+		display: block!important;
+	}
+	.navigation {
+		margin: 50px 20px!important;
+		.nav {
+			display: block;
+			li{
+				margin: 30px 0;
+			}
+		}
+	}
+	.navbar {
+		position: fixed!important;
+		background-color: white;
+		z-index: 1000;
+		width: 100%;
+		top: 0;
+		left: 0;
+		align-items: flex-start!important;
+		height: 77px;
+		overflow: hidden;
+		transition: background-color .5s;
+		background-color: transparent;
+	}
+	.navbar.active {
+		height: 400px;
+		transition: height .5s;
+		background-color: white;
+	}
+	.logo {
+		display: none;
+	}
+	
+	.portfolio-item {
+		padding: 15px 15px 0!important;
+	}
+	.wrapper, .content {
+		max-width: 100%!important;
+		margin: auto!important;
+	}
+	
+	.header-header {
+		font-size: 54px!important;
+	}
+	.content {
+		padding: 20px!important;
+	}
+	.section-wrapper {
+		padding: 40px 0!important;
+	}
+	.footer-text {
+		.links {
+			display: flex;
+			justify-content: center;
+			position: relative!important;	
+			float: none!important;
+			margin-bottom: 10px;
+		}
+	}
+}
+@media screen and (max-width: 456px) {
+	.header-buttons button {
+		margin: 10px auto!important;
+	}
+	.title-text-header {
+		font-size: 30px!important;
+	}
+}
+@media screen and (max-width: 576px) {
+	.services-item-icon img{
+		width: 100%!important;
+	}
+}
+@media screen and (max-width: 767px) {
+.large-image {
+		order: 1;
+	}
+	.large-article {
+		width: 90%!important;
+		margin: auto!important;
+		order: 2;
+		text-align: center;
+	}
+}
+.about {
+		height: 100%!important;
+		.about-text {
+			text-align: center;
+			margin: auto;
+			.title-line {
+				margin: auto;
+			}
+			.title-text-header {
+			}
+		}
+
+}
