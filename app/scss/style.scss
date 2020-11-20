@@ -176,10 +176,12 @@ $title-grey: #212121;
 }
 .about-content {
 	margin: 110px 0;
-	.about-img img{
+	.about-img {
+		display: flex;
+	img{
 		max-height: 100%;
   		max-width: 100%;
-	}
+		}}
 	.about-text{
 		margin: auto 0;
 		.title-line {
